@@ -1,0 +1,81 @@
+/* Debes Conocer */
+
+.contenedor-conocer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.info {
+  align-self: center;
+}
+
+.to-do {
+  margin-bottom: 7px;
+  color: #fda085;
+  font-weight: 900;
+}
+
+/* Galería */
+
+.galeria {
+  background: #f6f6f6;
+}
+
+.contenedor-galeria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img-galeria {
+  width: 30%;
+  height: 500px;
+  display: block;
+  margin-bottom: 25px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 200ms ease-in-out;
+}
+
+.img-galeria:hover {
+  /* transform: translateY(-2%); */
+  transform: scale(1.05, 1.05);
+}
+
+/* opiniones */
+
+.opiniones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cont-opiniones {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.cont-opiniones img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.citado {
+  color: #fda085;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 10px;
+  justify-content: center;
+}

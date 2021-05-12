@@ -1,0 +1,86 @@
+/* Footer */
+
+footer {
+  background: rgb(16, 19, 28);
+  background: linear-gradient(
+    117deg,
+    #ff6e46 0%,
+    #fda085 100%
+  );
+  padding-bottom: 0.1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us {
+  width: 40%;
+  color: white;
+}
+
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand + p {
+  font-weight: 500;
+}
+
+.social-media {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}
+.instagram:hover {
+  background: linear-gradient(217deg, #833ab4, #833ab400 70.71%),
+    linear-gradient(127deg, #fd1d1d, #833ab400 70.71%),
+    linear-gradient(336deg, #fcb045, #833ab400 70.71%);
+  color: white;
+}
+
+.facebook:hover {
+  background: white;
+  color: rgb(42, 99, 255);
+}
+
+.whatsapp:hover {
+  background: white;
+  color: rgb(0, 194, 48);
+}
+
+.twitter:hover {
+  background: white;
+  color: rgb(42, 188, 255);
+}
+
+.social-media-icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.line {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 3px;
+  background: white;
+  margin-bottom: 60px;
+}
